@@ -1,0 +1,68 @@
+html, body{
+  font-weight: normal;
+  font-family: sans-serif;
+
+}
+#main-doc{
+  margin: 0 5px 5px 210px;
+  position: absolute;
+  
+}
+#navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  margin: 5px;
+  padding:5px;
+  background-color: rgba(168, 167, 167, 0.46);
+}
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: rgb(129, 200, 200);
+}
+.h2{
+  font-weight: bold;
+  font-size: 20px;
+}
+header{
+display: block;
+    unicode-bidi: isolate;
+}
+.exam{
+  display: block;
+  line-height: 2;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(189, 194, 199);
+  word-break: normal;
+  word-wrap: normal;
+  border-radius: 10px;
+  
+}
+section li{
+ margin-left: 15px;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */  
+ #navbar{
+  position: relative;
+ left: 0;
+  top: 0;
+  width:100%;
+  height: 150px;
+  overflow-x: hidden;
+ }
+ #main-doc{
+position: absolute;
+
+margin-left: 0;
+ }
+}
+
+
